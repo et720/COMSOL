@@ -12,7 +12,7 @@ There are various COMSOL models you can use to simulate different types of react
 
 And using the various python files attached, you can easily generate personalised parameter files to directly insert them into the COMSOL model to run your simulation.
 
-Creating your customised protocol
+Creating your personalised file
 -------------------
 
 
