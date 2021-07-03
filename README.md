@@ -8,4 +8,4 @@ Continue reading to find out more about the system and generate a text file of p
 
 The microfluidic device includes two inlets from which your reactants are inserted into the device. The two will be completely mixed and allowed to incubate before exiting the device, and used for cryo-EM and imaging.
 
-![Save GitHub folder on to your computer](https://postimg.cc/R65Q8PSZ)
+![Save GitHub folder on to your computer](https://postimg.cc/qtf3Mz9m)
