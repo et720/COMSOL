@@ -8,7 +8,7 @@ while True:
     volume = input("\033[1m" + 'Enter the total of reactants you are using (in litres).' +
                        '\nThen press Enter: ' + "\033[1m")
     try:
-        volume = int(volume)
+        volume = float(volume)
         break
     except ValueError:
         print("\033[1m" + '\nPlease enter a numerical value. \n ' + "\033[1m")
@@ -27,7 +27,7 @@ while True:
                'Enter your initial concentration of reactant A (in molarity), \nThen press Enter: ' +
                "\033[1m")
     try:
-        A0 = int(A0)
+        A0 = float(A0)
         break
     except ValueError:
         print("\033[1m" + '\nPlease enter a numerical value. \n ' + "\033[1m")
@@ -42,7 +42,7 @@ while True:
                'Enter your initial concentration of reactant B (in molarity), \nThen press Enter: ' +
                "\033[1m")
     try:
-        B0 = int(B0)
+        B0 = float(B0)
         break
     except ValueError:
         print("\033[1m" + '\nPlease enter a numerical value. \n ' + "\033[1m")
@@ -56,7 +56,7 @@ while True:
     A_diff = input("\033[1m" + 'Enter the diffusivity of A (in m^2/s), \nThen press Enter: '+
                "\033[1m")
     try:
-        A_diff = int(A_diff)
+        A_diff = float(A_diff)
         break
     except ValueError:
         print("\033[1m" + '\nPlease enter a numerical value. \n ' + "\033[1m")
@@ -70,7 +70,7 @@ while True:
     B_diff = input("\033[1m" + 'Enter the diffusivity of B (in m^2/s), \nThen press Enter: '+
                "\033[1m")
     try:
-        B_diff = int(B_diff)
+        B_diff = float(B_diff)
         break
     except ValueError:
         print("\033[1m" + '\nPlease enter a numerical value. \n ' + "\033[1m")
@@ -84,7 +84,7 @@ while True:
     C_diff = input("\033[1m" + 'Enter the diffusivity of C (in m^2/s), \nThen press Enter: '+
                "\033[1m")
     try:
-        C_diff = int(C_diff)
+        C_diff = float(C_diff)
         break
     except ValueError:
         print("\033[1m" + '\nPlease enter a numerical value. \n ' + "\033[1m")
@@ -98,7 +98,7 @@ while True:
     k = input("\033[1m" + 'Enter the rate constant (in M^-1.s^1) , \nThen press Enter: ' +
                    "\033[1m")
     try:
-        k = int(k)
+        k = float(k)
         break
     except ValueError:
         print("\033[1m" + '\nPlease enter a numerical value. \n ' + "\033[1m")
