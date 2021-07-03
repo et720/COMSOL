@@ -1,8 +1,3 @@
-import math
-
-#Blank line
-print('\n')
-
 #Injection Volume
 while True:
     volume = input("\033[1m" + 'Enter the total of reactants you are using (in litres).' +
