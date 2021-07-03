@@ -42,12 +42,20 @@ Prompts will appear, as shown below. Enter the specific values for your reaction
 
 ![image](https://i.postimg.cc/qMv4MMv5/Screenshot-2021-07-03-at-17-09-06.png)
 
-To personalise the COMSOL model for your reaction of interest, you must create a parameters file using the python file attached. There are 7 parameters you must identify:
+Please enter your values in the units stated, and only enter numeric values.
+
+There are 5 main parameters you have to define for each type of reaction:
 
 1) Volume of reactants being used
-2) Initial concentration of reactant A
-3) Initial concentration of reactant B
-4) Diffusivity of reactant A
-5) Diffusivity of reactant B
-6) Diffusivity of reactant C
-7) Rate constant of reaction
+2) Initial concentration of reactants
+3) Diffusivity of reactants
+4) Diffusivity of products
+5) Rate constant
+
+Enter your filename and a new text file will be generated in the same folder as the python file. 
+
+This contains all your parameters and can be uploaded to the COMSOL model.
+
+Customising COMSOL model
+-------------------
+
