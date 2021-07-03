@@ -10,7 +10,13 @@ There are various COMSOL models you can use to simulate different types of react
 
 ![image](https://i.postimg.cc/FKxzYC0r/Screenshot-2021-07-03-at-16-50-50.png)
 
+And using the various python files attached, you can easily generate personalised parameter files to directly insert them into the COMSOL model to run your simulation.
 
+Creating your customised protocol
+-------------------
+
+
+Please select the appropriate folder for your reaction of interest
 
 
 To personalise the COMSOL model for your reaction of interest, you must create a parameters file using the python file attached. There are 7 parameters you must identify:
