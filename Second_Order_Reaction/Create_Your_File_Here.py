@@ -90,7 +90,7 @@ print('\n')
 
 #Rate Constant
 while True:
-    k = input("\033[1m" + 'Enter the rate constant (in M^-1.s^1) , \nThen press Enter: ' +
+    k = input("\033[1m" + 'Enter the rate constant (in (M^-1)*(s^-1)) , \nThen press Enter: ' +
                    "\033[1m")
     try:
         k = float(k)
@@ -116,9 +116,9 @@ txt_file  = open(name, "w+")
 txt_file.write("height  " + str(height) + "[um]  Height of truncated cone\n" )
 txt_file.write("A0  " + str(A0) + "[M]  Initial concentration A\n" )
 txt_file.write("B0  " + str(B0) + "[M]  Initial concentration B\n" )
-txt_file.write("A_diff  " + str(A_diff) + "[M^2/s)]  Diffusivity of A\n" )
-txt_file.write("B_diff  " + str(B_diff) + "[M^2/s)]  Diffusivity of B\n" )
-txt_file.write("C_diff  " + str(C_diff) + "[M^2/s)]  Diffusivity of C\n" )
+txt_file.write("A_diff  " + str(A_diff) + "[M^2/s]  Diffusivity of A\n" )
+txt_file.write("B_diff  " + str(B_diff) + "[M^2/s]  Diffusivity of B\n" )
+txt_file.write("C_diff  " + str(C_diff) + "[M^2/s]  Diffusivity of C\n" )
 txt_file.write("k  " + str(k) + "[(M^-1)*(s^-1)]  Rate constant\n" )
 txt_file.close()
 
