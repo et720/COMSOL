@@ -97,6 +97,9 @@ while True:
     except ValueError:
         print("\033[1m" + '\nPlease enter a numerical value. \n ' + "\033[1m")
         continue
+        
+#Blank line
+print('\n')
 
 #Diffusivity D
 while True:
@@ -153,8 +156,8 @@ print('\n')
 
 print( "\033[1m" + "Your personalised text file has now been created!" + "\033[1m")
 print('\n')
-print("\033[1m" + "Find your file is here:" + "\033[1m")
-print("YourFilePath/COMSOL-main/Third_Order_Reaction/filename.txt")
+print("\033[32;1m" + "Find your file is here:" + "\033[32;1m")
+print("\033[32;1m" + "YourFilePath/COMSOL-main/Third_Order_Reaction/filename.txt" + "\033[32;1m")
 print('\n')
 print("\033[32;1m" + "Exiting...." + "\033[32;1m")
 
