@@ -61,3 +61,10 @@ Open the appropriate .mph COMSOL model, in this case the 'Second_Order_Reaction.
 
 ![image](https://i.postimg.cc/66yFDXfk/Screenshot-2021-07-03-at-18-53-04.png)
 ![image](https://i.postimg.cc/ZnpH4VRd/Screenshot-2021-07-03-at-18-54-40.png)
+
+Further customisation
+-------------------
+
+The models can only simulate first, second and third order reactions, all producing one product. However, it is possible to add more reactants or products within the reaction. Follow these steps below.
+
+![image](https://i.postimg.cc/XNzyxwsf/Screenshot-2021-07-03-at-20-05-20.png)
