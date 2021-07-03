@@ -37,7 +37,10 @@ Or Windows:
   
 	$ python Create_Your_File_Here
 
+
 Prompts will appear, as shown below. Enter the specific values for your reaction of interest.
+
+![image](https://i.postimg.cc/MHRRnb5z/Screenshot-2021-07-03-at-17-06-35.png)
 
 To personalise the COMSOL model for your reaction of interest, you must create a parameters file using the python file attached. There are 7 parameters you must identify:
 
