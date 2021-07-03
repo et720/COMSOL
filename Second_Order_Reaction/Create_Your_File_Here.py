@@ -19,7 +19,7 @@ height = volume/(2E-9)
 
 #Blank line
 print('\n')
-print("For the following reaction:  " + "\033[1m" + "A + B --> C/n" + "\033[1m")
+print("For the following reaction:  " + "\033[1m" + "A + B --> C\n" + "\033[1m")
 
 #Concentration A
 while True:
