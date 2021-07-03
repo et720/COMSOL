@@ -1,13 +1,13 @@
 import math
 
 #Blank line
-print()
+print('\n')
 
 #Injection volume
-volume = (input("\033[1m" + 'Enter the total volume of reactants you are in injecting into the device (in litres)\nThen press Enter: ' + "\033[1m"))
+volume = str(input("\033[1m" + 'Enter the total volume of reactants you are in injecting into the device (in litres)\nThen press Enter: ' + "\033[1m"))
 
-while volume.isnumeric() == False:
-    volume = (input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
+while volume.isdigit() == False:
+    volume = str(input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
 else:
     volume = int(volume)
 
@@ -15,91 +15,79 @@ else:
 height = volume/(2E-9)
 
 #Blank line
-print()
+print('\n')
 
-print("For the following reaction:  " + "\033[1m" + "A + B --> C + D" + "\033[1m")
+print("For the following reaction:  " + "\033[1m" + "A + B --> C" + "\033[1m")
 
 #Concentration A
-A0 = (input("\033[1m" + 'Enter your initial concentration of reactant A (in molarity), \nThen press Enter: ' + "\033[1m"))
+A0 = str(input("\033[1m" + 'Enter your initial concentration of reactant A (in molarity), \nThen press Enter: ' + "\033[1m"))
 
-while A0.isnumeric() == False:
-    A0 = (input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
+while A0.isdigit() == False:
+    A0 = str(input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
 else:
     A0 = int(A0)
 
 #Blank line
-print()
+print('\n')
 
 #Concentration B
-B0 = (input("\033[1m" + 'Enter your initial concentration of reactant B (in molarity), \nThen press Enter: ' + "\033[1m"))
+B0 = str(input("\033[1m" + 'Enter your initial concentration of reactant B (in molarity), \nThen press Enter: ' + "\033[1m"))
 
-while B0.isnumeric() == False:
-    B0 = (input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
+while B0.isdigit() == False:
+    B0 = str(input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
 else:
     B0 = int(B0)
 
 #Blank line
-print()
+print('\n')
 
 #Diffusivity A
-A_diff = (input("\033[1m" + 'Enter the diffusivity of A (in m^2/s), \nThen press Enter: ' + "\033[1m"))
+A_diff = str(input("\033[1m" + 'Enter the diffusivity of A (in m^2/s), \nThen press Enter: ' + "\033[1m"))
 
-while A_diff.isnumeric() == False:
-    A_diff = (input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
+while A_diff.isdigit() == False:
+    A_diff = str(input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
 else:
     A_diff = int(A_diff)
 
 #Blank line
-print()
+print('\n')
 
 #Diffusivity B
-B_diff = (input("\033[1m" + 'Enter the diffusivity of B (in m^2/s), \nThen press Enter: ' + "\033[1m"))
+B_diff = str(input("\033[1m" + 'Enter the diffusivity of B (in m^2/s), \nThen press Enter: ' + "\033[1m"))
 
-while B_diff.isnumeric() == False:
-    B_diff = (input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
+while B_diff.isdigit() == False:
+    B_diff = str(input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
 else:
     B_diff = int(B_diff)
     
 #Blank line
-print()
+print('\n')
 
 #Diffusivity C
-C_diff = (input("\033[1m" + 'Enter the diffusivity of C (in m^2/s), \nThen press Enter: ' + "\033[1m"))
+C_diff = str(input("\033[1m" + 'Enter the diffusivity of C (in m^2/s), \nThen press Enter: ' + "\033[1m"))
 
-while C_diff.isnumeric() == False:
-    C_diff = (input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
+while C_diff.isdigit() == False:
+    C_diff = str(input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
 else:
     C_diff = int(C_diff)
-    
-#Blank line
-print()
-
-#Diffusivity D
-print("\033[1m" + 'Enter the diffusivity of D (in m^2/s), \nThen press Enter. ' + "\033[1m")
-D_diff = input("\033[1m" + 'If solute D is not in your reaction, Enter 0." + "\033[1m")
-
-while D_diff.isnumeric() == False:
-    D_diff = (input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
-else:
-    D_diff = int(D_diff)
 
                
 #Blank line
-print()
+print('\n')
 
 #Rate Constant
-k = (input("\033[1m" + 'Enter the rate constant (in M^-1.s^1) , \nThen press Enter: ' + "\033[1m"))
+k = str(input("\033[1m" + 'Enter the rate constant (in M^-1.s^1) , \nThen press Enter: ' + "\033[1m"))
 
-while k.isnumeric() == False:
-    k = (input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
+while k.isdigit() == False:
+    k = str(input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
 else:
     k = int(k)
 
 #Blank line
-print()
+print('\n')
 
 #Filename
-name = input("\033[1m" + 'Please enter the name for your personalised text file: \n ' + "\033[1m")
+name = str(input("\033[1m" + 'Please enter the name for your personalised text file: \n ' + "\033[1m"))
 
 #Convert to .txt file
 substring = ".xt"
@@ -116,18 +104,17 @@ txt_file.write("B0  " + str(B0) + "[M]  Initial concentration B\n" )
 txt_file.write("A_diff  " + str(A_diff) + "[M^2/s)]  Diffusivity of A\n" )
 txt_file.write("B_diff  " + str(B_diff) + "[M^2/s)]  Diffusivity of B\n" )
 txt_file.write("C_diff  " + str(C_diff) + "[M^2/s)]  Diffusivity of C\n" )
-txt_file.write("D_diff  " + str(D_diff) + "[M^2/s)]  Diffusivity of D\n" )
 txt_file.write("k  " + str(k) + "[(M^-1)*(s^-1)]  Rate constant\n" )
 txt_file.close()
 
 #Blank line
-print()
+print('\n')
 
 print( "\033[1m" + "Your personalised text file has now been created!" + "\033[1m")
-print()
+print('\n')
 print("\033[1m" + "Find your file is here:" + "\033[1m")
 print("YourFilePath/COMSOL-main/Second_Order_Reaction")
-print()
+print('\n')
 print("\033[1m" + "Exiting...." + "\033[1m")
 
     
