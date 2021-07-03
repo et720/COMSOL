@@ -52,9 +52,7 @@ There are 5 main parameters you have to define for each type of reaction:
 4) Diffusivity of products
 5) Rate constant
 
-Enter your filename and a new text file will be generated in the same folder as the python file. 
-
-This contains all your parameters and can be uploaded to the COMSOL model.
+This will generate a new text file in the same folder as the python file. It contains all the parameters required to run the COMSOL model.
 
 Customise the COMSOL model
 -------------------
