@@ -128,7 +128,7 @@ print('\n')
 print( "\033[1m" + "Your personalised text file has now been created!" + "\033[1m")
 print('\n')
 print("\033[1m" + "Find your file is here:" + "\033[1m")
-print("YourFilePath/COMSOL-main/Second_Order_Reaction")
+print("YourFilePath/COMSOL-main/Second_Order_Reaction/filename.txt")
 print('\n')
 print("\033[32;1m" + "Exiting...." + "\033[32;1m")
 
