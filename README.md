@@ -22,7 +22,7 @@ You may notice that there are varioud folders for the different types of reactio
 
 We will now go through how you can generate your personlised parameter file, using a second order reaction as an example.
 
-Creating your personalised parameter file
+Create a personalised parameter file
 -------------------
 
 Open terminal or command line and change the directory (‘cd’):
@@ -56,6 +56,6 @@ Enter your filename and a new text file will be generated in the same folder as 
 
 This contains all your parameters and can be uploaded to the COMSOL model.
 
-Customising COMSOL model
+Customise the COMSOL model
 -------------------
 
