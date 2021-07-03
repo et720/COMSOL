@@ -68,3 +68,7 @@ Further customisation
 The models can only simulate first, second and third order reactions, all producing one product. However, it is possible to add more reactants or products within the reaction. Follow these steps below.
 
 ![image](https://i.postimg.cc/XNzyxwsf/Screenshot-2021-07-03-at-20-05-20.png)
+
+You add each value into the boxes or paramatise by entering them into the parameter table or text file.
+
+![image](https://i.postimg.cc/YqNm6jsk/Screenshot-2021-07-03-at-20-13-40.png)
