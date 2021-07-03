@@ -114,7 +114,7 @@ print('\n')
 
 #Rate Constant
 while True:
-    k = input("\033[1m" + 'Enter the rate constant (in M^-2*s^-1) , \nThen press Enter: ' +
+    k = input("\033[1m" + 'Enter the rate constant (in (M^-2)*(s^-1)) , \nThen press Enter: ' +
                    "\033[1m")
     try:
         k = float(k)
@@ -141,10 +141,10 @@ txt_file.write("height  " + str(height) + "[um]  Height of truncated cone\n" )
 txt_file.write("A0  " + str(A0) + "[M]  Initial concentration A\n" )
 txt_file.write("B0  " + str(B0) + "[M]  Initial concentration B\n" )
 txt_file.write("C0  " + str(B0) + "[M]  Initial concentration C\n" )
-txt_file.write("A_diff  " + str(A_diff) + "[M^2/s)]  Diffusivity of A\n" )
-txt_file.write("B_diff  " + str(B_diff) + "[M^2/s)]  Diffusivity of B\n" )
-txt_file.write("C_diff  " + str(C_diff) + "[M^2/s)]  Diffusivity of C\n" )
-txt_file.write("D_diff  " + str(D_diff) + "[M^2/s)]  Diffusivity of C\n" )
+txt_file.write("A_diff  " + str(A_diff) + "[m^2/s]  Diffusivity of A\n" )
+txt_file.write("B_diff  " + str(B_diff) + "[m^2/s]  Diffusivity of B\n" )
+txt_file.write("C_diff  " + str(C_diff) + "[m^2/s]  Diffusivity of C\n" )
+txt_file.write("D_diff  " + str(D_diff) + "[m^2/s]  Diffusivity of D\n" )
 txt_file.write("k  " + str(k) + "[(M^-2)*(s^-1)]  Rate constant\n" )
 txt_file.close()
 
