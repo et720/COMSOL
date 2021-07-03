@@ -59,8 +59,8 @@ Customise the COMSOL model
 
 Open the appropriate .mph COMSOL model, in this case the 'Second_Order_Reaction.mph' file and follow these steps below.
 
-![image](https://i.postimg.cc/66yFDXfk/Screenshot-2021-07-03-at-18-53-04.png)
-![image](https://i.postimg.cc/ZnpH4VRd/Screenshot-2021-07-03-at-18-54-40.png)
+![image](https://i.postimg.cc/jdgHBDRT/Screenshot-2021-07-03-at-21-44-16.png)
+![image](https://i.postimg.cc/4xY6GX39/Screenshot-2021-07-03-at-21-39-26.png)
 
 Further customisation
 -------------------
