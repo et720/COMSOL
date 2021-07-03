@@ -69,6 +69,6 @@ The models can only simulate first, second and third order reactions, all produc
 
 ![image](https://i.postimg.cc/XNzyxwsf/Screenshot-2021-07-03-at-20-05-20.png)
 
-You add each value into the boxes or paramatise by entering them into the parameter table or text file.
+You input each value into the prompt or paramatise each value and enter them into the parameter table or text file.
 
 ![image](https://i.postimg.cc/YqNm6jsk/Screenshot-2021-07-03-at-20-13-40.png)
