@@ -86,8 +86,8 @@ else:
 txt_file  = open(name, "w+")
 txt_file.write("height  " + str(height) + "[um]  Height of truncated cone\n" )
 txt_file.write("A0  " + str(A0) + "[M]  Initial concentration A\n" )
-txt_file.write("A_diff  " + str(A_diff) + "[M^2/s]  Diffusivity of A\n" )
-txt_file.write("B_diff  " + str(B_diff) + "[M^2/s]  Diffusivity of B\n" )
+txt_file.write("A_diff  " + str(A_diff) + "[m^2/s]  Diffusivity of A\n" )
+txt_file.write("B_diff  " + str(B_diff) + "[m^2/s]  Diffusivity of B\n" )
 txt_file.write("k  " + str(k) + "[1/s]  Rate constant\n" )
 txt_file.close()
 
