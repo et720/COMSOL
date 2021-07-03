@@ -16,10 +16,26 @@ Download the folder from GitHub
 -------------------
 ![image](https://i.postimg.cc/V6CCdWsD/Screenshot-2021-07-03-at-16-54-58.png)
 
+Once the folder is downloaded, unzip it into your desired destination.
 
+You may notice that there are varioud folders for the different types of reactions. This is required because each type consists of unique parameters and models. 
 
+We will now go through how you can generate your personlised parameter file, using a second order reaction as an example.
 
-Please select the appropriate folder for your reaction of interest
+Creating your personalised parameter file
+-------------------
+
+Open terminal or command line and change the directory (‘cd’):
+
+	$ cd YourFilePath/COMSOL-main/Second_Order_Reaction 
+ 
+Run the script using python by typing the following for MacOS:
+
+	$ python Create_Your_File_Here.py
+	
+Or Windows:
+  
+	$ python YeastTransformationProtocol_API2
 
 
 To personalise the COMSOL model for your reaction of interest, you must create a parameters file using the python file attached. There are 7 parameters you must identify:
