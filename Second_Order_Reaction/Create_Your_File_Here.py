@@ -17,7 +17,7 @@ height = volume/(2E-9)
 #Blank line
 print()
 
-print("For the following reaction:  " + "\033[1m" + "A + B --> C + D + E" + "\033[1m")
+print("For the following reaction:  " + "\033[1m" + "A + B --> C + D" + "\033[1m")
 
 #Concentration A
 A0 = (input("\033[1m" + 'Enter your initial concentration of reactant A (in molarity), \nThen press Enter: ' + "\033[1m"))
@@ -83,17 +83,6 @@ while D_diff.isnumeric() == False:
 else:
     D_diff = int(D_diff)
 
-#Blank line
-print()               
-               
-#Diffusivity E
-print("\033[1m" + 'Enter the diffusivity of E (in m^2/s), \nThen press Enter. ' + "\033[1m")
-E_diff = input("\033[1m" + 'If solute E is not in your reaction, Enter 0." + "\033[1m")
-
-while E_diff.isnumeric() == False:
-    E_diff = (input("\033[1m" + 'Please enter a numerical value: ' + "\033[1m"))
-else:
-    E_diff = int(E_diff)
                
 #Blank line
 print()
@@ -128,7 +117,6 @@ txt_file.write("A_diff  " + str(A_diff) + "[M^2/s)]  Diffusivity of A\n" )
 txt_file.write("B_diff  " + str(B_diff) + "[M^2/s)]  Diffusivity of B\n" )
 txt_file.write("C_diff  " + str(C_diff) + "[M^2/s)]  Diffusivity of C\n" )
 txt_file.write("D_diff  " + str(D_diff) + "[M^2/s)]  Diffusivity of D\n" )
-txt_file.write("E_diff  " + str(E_diff) + "[M^2/s)]  Diffusivity of E\n" )
 txt_file.write("k  " + str(k) + "[(M^-1)*(s^-1)]  Rate constant\n" )
 txt_file.close()
 
