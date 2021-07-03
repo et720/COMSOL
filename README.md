@@ -14,7 +14,7 @@ And using the various python files attached, you can easily generate personalise
 
 Download the folder from GitHub
 -------------------
-![image](https://i.postimg.cc/9M8G7QyQ/Screenshot-2021-07-03-at-16-54-58.png)
+![image](https://i.postimg.cc/V6CCdWsD/Screenshot-2021-07-03-at-16-54-58.png)
 
 
 
