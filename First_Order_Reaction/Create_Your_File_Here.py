@@ -14,7 +14,7 @@ height = volume/(2E-9)
 
 #Blank line
 print('\n')
-print("For the following reaction:  " + "\033[1m" + "A  --> B\n" + "\033[1m")
+print("For the following reaction:  " + "\033[1m" + "A --> B\n" + "\033[1m")
 
 #Concentration A
 while True:
@@ -86,9 +86,9 @@ else:
 txt_file  = open(name, "w+")
 txt_file.write("height  " + str(height) + "[um]  Height of truncated cone\n" )
 txt_file.write("A0  " + str(A0) + "[M]  Initial concentration A\n" )
-txt_file.write("A_diff  " + str(A_diff) + "[M^2/s)]  Diffusivity of A\n" )
-txt_file.write("B_diff  " + str(B_diff) + "[M^2/s)]  Diffusivity of B\n" )
-txt_file.write("k  " + str(k) + "[(M^-1)*(s^-1)]  Rate constant\n" )
+txt_file.write("A_diff  " + str(A_diff) + "[M^2/s]  Diffusivity of A\n" )
+txt_file.write("B_diff  " + str(B_diff) + "[M^2/s]  Diffusivity of B\n" )
+txt_file.write("k  " + str(k) + "[1/s]  Rate constant\n" )
 txt_file.close()
 
 #Blank line
