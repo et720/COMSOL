@@ -4,7 +4,14 @@ The COMSOL model generates a concentration distribution of products from a first
 
 The microfluidic device includes two inlets from which your reactants are inserted into the device. The two will be completely mixed and allowed to incubate before exiting the device, and used for cryo-EM and imaging.
 
-![Save GitHub folder on to your computer](https://i.postimg.cc/q7qXwKQd/Screenshot-2021-07-03-at-16-41-47.png)
+![image](https://i.postimg.cc/q7qXwKQd/Screenshot-2021-07-03-at-16-41-47.png)
+
+There are various COMSOL models you can use to simulate different types of reactions, including:
+
+![image](https://i.postimg.cc/FKxzYC0r/Screenshot-2021-07-03-at-16-50-50.png)
+
+
+
 
 To personalise the COMSOL model for your reaction of interest, you must create a parameters file using the python file attached. There are 7 parameters you must identify:
 
